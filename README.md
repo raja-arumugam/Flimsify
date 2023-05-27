@@ -21,7 +21,7 @@
 
 
 
-### <h3><img align="center" src="https://github.com/raja-arumugam/Flimsify/tree/main/app/src/main/res/drawable/camera.png">&nbsp;Screenshots (Movies)</h3>
+### <h3><img align="center" src="https://github.com/raja-arumugam/Flimsify/blob/main/app/src/main/res/drawable/camera.png">&nbsp;Screenshots (Movies)</h3>
 
 <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/1.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/2.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/3.png" width="250">  
 <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/4.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/5.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/6.png" width="250">  
@@ -29,7 +29,7 @@
 
 
 
-### <h3><img align="center" src="https://github.com/raja-arumugam/Flimsify/tree/main/app/src/main/res/drawable/camera.png">&nbsp;Screenshots (Tv Shows and Seasons)</h3>
+### <h3><img align="center" src="https://github.com/raja-arumugam/Flimsify/blob/main/app/src/main/res/drawable/camera.png">&nbsp;Screenshots (Tv Shows and Seasons)</h3>
 
 <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/10.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/11.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/12.png" width="250">  
 <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/13.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/14.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/15.png" width="250">  
@@ -38,7 +38,7 @@
 
 
 
-### <h3><img align="center" src="https://github.com/raja-arumugam/Flimsify/tree/main/app/src/main/res/drawable/camera.png">&nbsp;Screenshots (Discover)</h3>
+### <h3><img align="center" src="https://github.com/raja-arumugam/Flimsify/blob/main/app/src/main/res/drawable/camera.png">&nbsp;Screenshots (Discover)</h3>
 <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/22.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/23.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/24.png" width="250">  
 <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/25.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/26.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/27.png" width="250">  
 <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/28.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/29.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/30.png" width="250">  
