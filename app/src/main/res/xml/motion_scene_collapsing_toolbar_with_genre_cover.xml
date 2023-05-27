@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        app:constraintSetEnd="@layout/collapsing_toolbar_with_genrefragment_cover_end"
+        app:constraintSetStart="@layout/fragment_genre"
+        app:duration="1000">
+
+        <OnSwipe
+            app:dragDirection="dragUp"
+            app:touchAnchorId="@id/ns_view"
+            app:touchAnchorSide="top" />
+
+        <KeyFrameSet>
+
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="70"
+                motion:motionTarget="@id/backButton" />
+
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="70"
+                motion:motionTarget="@id/backButton2" />
+
+            <KeyAttribute
+                android:alpha="1"
+                motion:framePosition="90"
+                motion:motionTarget="@id/backButton2" />
+
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="70"
+                motion:motionTarget="@id/tv_title" />
+
+            <KeyAttribute
+                android:alpha="1"
+                motion:framePosition="90"
+                motion:motionTarget="@id/tv_title" />
+
+        </KeyFrameSet>
+
+    </Transition>
+</MotionScene>

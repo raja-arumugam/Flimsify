@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/moviesFragment"
+        android:icon="@drawable/movie_fill"
+        android:title="@string/movies" />
+    <item
+        android:id="@+id/tvFragment"
+        android:icon="@drawable/baseline_live_tv_24"
+        android:title="@string/tv_shows" />
+    <item
+        android:id="@+id/exploreFragment"
+        android:icon="@drawable/baseline_explore_24"
+        android:title="@string/explore" />
+</menu>

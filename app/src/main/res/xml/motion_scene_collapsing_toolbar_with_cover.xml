@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        app:constraintSetEnd="@layout/collapsing_toolbar_with_cover_end"
+        app:constraintSetStart="@layout/fragment_explore"
+        app:duration="500">
+
+        <OnSwipe
+            app:dragDirection="dragUp"
+            app:touchAnchorId="@id/rv_exploreGenre"
+            app:touchAnchorSide="top" />
+
+        <KeyFrameSet>
+
+            <!--  <KeyAttribute
+                  android:alpha="0"
+                  motion:framePosition="70"
+                  motion:motionTarget="@id/title" />-->
+
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="70"
+                motion:motionTarget="@id/vp_images" />
+
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="70"
+                motion:motionTarget="@id/backButton" />
+
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="70"
+                motion:motionTarget="@id/backButton2" />
+
+            <KeyAttribute
+                android:alpha="1"
+                motion:framePosition="90"
+                motion:motionTarget="@id/backButton2" />
+
+           <!-- <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="60"
+                motion:motionTarget="@id/searchview" />-->
+
+           <!-- <KeyAttribute
+                android:alpha="1"
+                motion:framePosition="80"
+                motion:motionTarget="@id/searchview" />-->
+
+        </KeyFrameSet>
+    </Transition>
+</MotionScene>

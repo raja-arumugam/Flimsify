@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Flimsify</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="movies">Movies</string>
+    <string name="account">Account</string>
+    <string name="hello">Hello,</string>
+    <string name="username">Dev.!</string>
+    <string name="my_image_description">my_image_description</string>
+    <string name="trending_now">Trending Now</string>
+    <string name="top_rated_movies">Top Rated Movies</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="popular_movies">Popular Movies</string>
+    <string name="action_movies">Action Movies</string>
+    <string name="popular_tv">Popular TV shows</string>
+    <string name="airing_today">Airing Today\'s Shows</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="summary">Overview</string>
+    <string name="actor_name">Actor Name</string>
+    <string name="job">Job</string>
+    <string name="cast">Cast</string>
+    <string name="crew">Crew</string>
+    <string name="production_companies">Production</string>
+    <string name="instagram">Instagram</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="web">Web</string>
+    <string name="biography">Biography</string>
+    <string name="personal_info">Pesonal Info</string>
+    <string name="known_for">Known For</string>
+    <string name="gender">Gender</string>
+    <string name="born_on">Born On</string>
+    <string name="age">Age</string>
+    <string name="born_in">Place of Birth</string>
+    <string name="videos">Videos</string>
+    <string name="tv_shows">Tv Shows</string>
+    <string name="play">Play</string>
+    <string name="similar">Similar</string>
+    <string name="seasons">Seasons</string>
+    <string name="episodes">Episodes</string>
+    <string name="explore">Explore</string>
+    <string name="reviews">Reviews</string>
+    <string name="english">English</string>
+    <string name="search">Search Movie, Tv shows..</string>
+
+    <string name="en">en</string>
+    <string name="zh">zh</string>
+    <string name="ja">ja</string>
+    <string name="ko">ko</string>
+    <string name="es">es</string>
+    <string name="sv">sv</string>
+    <string name="de">de</string>
+    <string name="da">da</string>
+    <string name="pt">pt</string>
+    <string name="ar">ar</string>
+    <string name="hi">hi</string>
+    <string name="ms">ms</string>
+    <string name="tl">tl</string>
+    <string name="sk">sk</string>
+    <string name="fr">fr</string>
+    <string name="nl">nl</string>
+    <string name="fi">fi</string>
+    <string name="ta">ta</string>
+    <string name="ml">ml</string>
+    <string name="te">te</string>
+    <string name="kn">kn</string>
+
+    <integer-array name="genre_images">
+        <item>@drawable/action</item>
+        <item>@drawable/adventure</item>
+        <item>@drawable/animation</item>
+        <item>@drawable/comedy</item>
+        <item>@drawable/crime</item>
+        <item>@drawable/documentry</item>
+        <item>@drawable/drama</item>
+        <item>@drawable/family</item>
+        <item>@drawable/fantasy</item>
+        <item>@drawable/history</item>
+        <item>@drawable/horror</item>
+        <item>@drawable/music</item>
+        <item>@drawable/mystery</item>
+        <item>@drawable/romance</item>
+        <item>@drawable/sciencefic</item>
+        <item>@drawable/tvmovie</item>
+        <item>@drawable/thriller</item>
+        <item>@drawable/war</item>
+        <item>@drawable/western</item>
+    </integer-array>
+
+</resources>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/moviesFragment">
+
+    <fragment
+        android:id="@+id/moviesFragment"
+        android:name="com.example.moviesdataapp.ui.fragment.MoviesFragment"
+        android:label="fragment_movies_list"
+        tools:layout="@layout/fragment_movies">
+        <action
+            android:id="@+id/moviesListFragmentTodetailsFragment"
+            app:destination="@id/details_Fragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit"
+            app:popEnterAnim="@anim/pop_enter"
+            app:popExitAnim="@anim/pop_exit" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/tvFragment"
+        android:name="com.example.moviesdataapp.ui.fragment.TvShowsListFragment"
+        android:label="fragment_tv_shows_list"
+        tools:layout="@layout/fragment_tv_shows_list">
+        <action
+            android:id="@+id/action_tvFragment_to_details_Fragment"
+            app:destination="@id/details_Fragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit"
+            app:popEnterAnim="@anim/pop_enter"
+            app:popExitAnim="@anim/pop_exit" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/details_Fragment"
+        android:name="com.example.moviesdataapp.ui.fragment.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details">
+        <argument
+            android:name="id"
+            app:argType="integer" />
+        <argument
+            android:name="is_fromMovie"
+            android:defaultValue="false"
+            app:argType="boolean" />
+
+        <action
+            android:id="@+id/action_details_Fragment_to_actorDetailsFragment"
+            app:destination="@id/actorDetailsFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit"
+            app:popEnterAnim="@anim/pop_enter"
+            app:popExitAnim="@anim/pop_exit" />
+        <action
+            android:id="@+id/action_details_Fragment_to_videoPlayerFragment"
+            app:destination="@id/videoPlayerFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit"
+            app:popEnterAnim="@anim/pop_enter"
+            app:popExitAnim="@anim/pop_exit" />
+        <action
+            android:id="@+id/action_details_Fragment_to_tvSeasonFragment"
+            app:destination="@id/tvSeasonFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit"
+            app:popEnterAnim="@anim/pop_enter"
+            app:popExitAnim="@anim/pop_exit" />
+        <action
+            android:id="@+id/action_details_Fragment_to_imagePreviewFragment"
+            app:destination="@id/imagePreviewFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit"
+            app:popEnterAnim="@anim/pop_enter"
+            app:popExitAnim="@anim/pop_exit" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/actorDetailsFragment"
+        android:name="com.example.moviesdataapp.ui.fragment.ActorDetailsFragment"
+        android:label="fragment_cast_details"
+        tools:layout="@layout/fragment_actor_details">
+
+        <argument
+            android:name="id"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_actorDetailsFragment_to_details_Fragment"
+            app:destination="@id/details_Fragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit"
+            app:popEnterAnim="@anim/pop_enter"
+            app:popExitAnim="@anim/pop_exit" />
+        <action
+            android:id="@+id/action_actorDetailsFragment_to_imagePreviewFragment"
+            app:destination="@id/imagePreviewFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit"
+            app:popEnterAnim="@anim/pop_enter"
+            app:popExitAnim="@anim/pop_exit" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/videoPlayerFragment"
+        android:name="com.example.moviesdataapp.ui.fragment.VideoPlayerFragment"
+        android:label="fragment_video_player"
+        tools:layout="@layout/fragment_video_player">
+
+        <argument
+            android:name="videoID"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/tvSeasonFragment"
+        android:name="com.example.moviesdataapp.ui.fragment.TvSeasonFragment"
+        android:label="fragment_tv_season"
+        tools:layout="@layout/fragment_tv_season">
+
+        <argument
+            android:name="seasonId"
+            app:argType="integer" />
+        <argument
+            android:name="tvId"
+            app:argType="integer" />
+        <argument
+            android:name="seriesName"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_tvSeasonFragment_to_imagePreviewFragment"
+            app:destination="@id/imagePreviewFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit"
+            app:popEnterAnim="@anim/pop_enter"
+            app:popExitAnim="@anim/pop_exit" />
+        <action
+            android:id="@+id/action_tvSeasonFragment_self"
+            app:destination="@id/tvSeasonFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit"
+            app:popEnterAnim="@anim/pop_enter"
+            app:popExitAnim="@anim/pop_exit" />
+        <action
+            android:id="@+id/action_tvSeasonFragment_to_actorDetailsFragment"
+            app:destination="@id/actorDetailsFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit"
+            app:popEnterAnim="@anim/pop_enter"
+            app:popExitAnim="@anim/pop_exit" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/imagePreviewFragment"
+        android:name="com.example.moviesdataapp.ui.fragment.ImagePreviewFragment"
+        android:label="fragment_image_preview"
+        tools:layout="@layout/fragment_image_preview">
+
+        <argument
+            android:name="images"
+            app:argType="com.example.moviesdataapp.data.model.BackdropImages[]" />
+        <argument
+            android:name="position"
+            app:argType="integer" />
+        <argument
+            android:name="isFrom"
+            app:argType="boolean" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.example.moviesdataapp.ui.fragment.ExploreFragment"
+        android:label="fragment_explore"
+        tools:layout="@layout/fragment_explore">
+        <action
+            android:id="@+id/action_exploreFragment_to_genreFragment"
+            app:destination="@id/genreFragment" />
+        <action
+            android:id="@+id/action_exploreFragment_to_details_Fragment"
+            app:destination="@id/details_Fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/genreFragment"
+        android:name="com.example.moviesdataapp.ui.fragment.GenreFragment"
+        android:label="fragment_genre"
+        tools:layout="@layout/fragment_genre">
+
+        <argument
+            android:name="name"
+            app:argType="string" />
+
+        <argument
+            android:name="genre_id"
+            app:argType="integer" />
+
+        <argument
+            android:name="img_path"
+            app:argType="integer" />
+
+        <action
+            android:id="@+id/action_genreFragment_to_details_Fragment"
+            app:destination="@id/details_Fragment" />
+    </fragment>
+
+</navigation>
