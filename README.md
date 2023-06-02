@@ -3,7 +3,7 @@
 ### Flimsify is a TMDb mobile app to view movies and series and it's seasons. it shows their details, you can even watch trailers.
 
 
-### <h3><img align="center" src="https://github.com/raja-arumugam/Flimsify/blob/main/app/src/main/res/drawable/programing.png">&nbsp;Build With</h3>
+## <h3><img align="center" src="https://github.com/raja-arumugam/Flimsify/blob/main/app/src/main/res/drawable/programing.png">&nbsp;Build With</h3>
 
 * [MVVM with Clean Architecture](https://www.toptal.com/android/android-apps-mvvm-with-clean-architecture)
 * [Coroutines](https://developer.android.com/kotlin/coroutines#:~:text=A%20coroutine%20is%20a%20concurrency,established%20concepts%20from%20other%20languages.)
@@ -21,7 +21,7 @@
 
 
 
-### <h3><img align="center" src="https://github.com/raja-arumugam/Flimsify/blob/main/app/src/main/res/drawable/camera.png">&nbsp;Screenshots (Movies)</h3>
+## <h3><img align="center" src="https://github.com/raja-arumugam/Flimsify/blob/main/app/src/main/res/drawable/camera.png">&nbsp;Screenshots (Movies)</h3>
 
 <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/1.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/2.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/3.png" width="250">  
 <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/4.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/5.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/6.png" width="250">  
@@ -29,7 +29,7 @@
 
 
 
-### <h3><img align="center" src="https://github.com/raja-arumugam/Flimsify/blob/main/app/src/main/res/drawable/camera.png">&nbsp;Screenshots (Tv Shows and Seasons)</h3>
+## <h3><img align="center" src="https://github.com/raja-arumugam/Flimsify/blob/main/app/src/main/res/drawable/camera.png">&nbsp;Screenshots (Tv Shows and Seasons)</h3>
 
 <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/10.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/11.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/12.png" width="250">  
 <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/13.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/14.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/15.png" width="250">  
@@ -38,9 +38,14 @@
 
 
 
-### <h3><img align="center" src="https://github.com/raja-arumugam/Flimsify/blob/main/app/src/main/res/drawable/camera.png">&nbsp;Screenshots (Discover)</h3>
+## <h3><img align="center" src="https://github.com/raja-arumugam/Flimsify/blob/main/app/src/main/res/drawable/camera.png">&nbsp;Screenshots (Discover)</h3>
 <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/22.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/23.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/24.png" width="250">  
 <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/25.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/26.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/27.png" width="250">  
 <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/28.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/29.png" width="250">   <img src="https://github.com/raja-arumugam/Flimsify/blob/main/Screenshots/30.png" width="250">  
+
+
+
+## License
+Flimsify is distributed under the terms of the Apache License (Version 2.0). See the [license](https://github.com/raja-arumugam/Flimsify/blob/main/LICENSE) for more information.
 
 
